@@ -1,0 +1,32 @@
+{
+  "Employee": [
+    {
+      "id": "1",
+      "employee_name": "vhh",
+      "employee_age": "25",
+      "employee_salary": "124556",
+      "profile_image": ""
+    },
+    {
+      "id": "2",
+      "employee_name": "jsdjgjkdj",
+      "employee_age": "12",
+      "employee_salary": "54266",
+      "profile_image": ""
+    },
+    {
+      "id": "3",
+      "employee_name": "fghjk",
+      "employee_age": "25",
+      "employee_salary": "7584",
+      "profile_image": ""
+    },
+    {
+      "id": 0,
+      "employee_name": "fghj",
+      "employee_age": "54",
+      "employee_salary": "3535",
+      "profile_image": ""
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+<div>
+  <div class="row mb-3">
+    <label for="input" class="col-sm-2 col-form-label">Employee_id</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" [(ngModel)]="es.s.id">
+    </div>
+  </div>  
+  <div class="row mb-3">
+      <label for="input" class="col-sm-2 col-form-label">Employee_name</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" [(ngModel)]="es.s.employee_name">
+      </div>
+    </div>
+    <div class="row mb-3">
+      <label for="inputPassword3" class="col-sm-2 col-form-label" >Emplouee_salary</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" [(ngModel)]="es.s.employee_salary" >
+      </div>
+    </div>
+    <div class="row mb-3">
+        <label for="inputPassword3" class="col-sm-2 col-form-label">Employee_age</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="inputPassword3" [(ngModel)]="es.s.employee_age">
+        </div>
+      </div>
+    <button type="submit" class="btn btn-primary" (click)="saveStu(es.s)">save</button>
+  
+</div>
